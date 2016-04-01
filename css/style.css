@@ -1,0 +1,269 @@
+body {
+	/**nothing needed atm**/
+}
+
+
+/**																				START PAGE															**/
+/**																				START PAGE															**/
+/**																				START PAGE															**/
+#appcontainer {
+	background-image: url(../images/dark_wall.png);
+	background-repeat: repeat-x repeat-y;
+	width:640px;
+	height: 1136px;
+	margin:0;
+}
+
+#landinglogo {
+	float:left;
+	width:80%;
+	height:600px;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:15%;
+}
+
+#startbutton {
+	background-image:url(../images/startbtn.png);
+	float:left;
+	width:60%;
+	height:150px;
+	margin-left:20%;
+	margin-right:20%;
+	margin-top:20%;
+}
+
+
+
+
+
+
+
+
+
+
+/**																				FOOD SELECT PAGE													**/
+/**																				FOOD SELECT PAGE													**/
+/**																				FOOD SELECT PAGE													**/
+#foodselecttitlebox {
+	background-image:url(../images/food_selection_header.png);
+	float:left;
+	width:90%;
+	height:150px;
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:5%;
+}
+
+#searchbox {
+	background-image: url(../images/search.png);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	float:left;
+	width:80%;
+	height:75px;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:3%;
+}
+
+#thumbnailcontainer {
+	background-color: rgba(255,255,255,0.1);
+	float:left;
+	width:80%;
+	height:700px;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:3%;
+}
+
+.selectfoodthumbnail {
+	float:left;
+	width:30%;
+	height:150px;
+	margin-left:2.5%;
+	margin-top:2%;
+}
+
+#getrecipebutton {
+	background-image:url(../images/go_button.png);
+	background-size:contain;
+	background-repeat: no-repeat;
+	float:left;
+	width:50%;
+	height:125px;
+	margin-left:25%;
+	margin-right:25%;
+	margin-top:-5%;
+}
+
+
+
+
+
+
+
+
+/**																				RECIPE SELECT PAGE													**/
+/**																				RECIPE SELECT PAGE													**/
+/**																				RECIPE SELECT PAGE													**/
+#recipeselecttitlebox {
+	background-image:url(../images/recipe_header.png);
+	float:left;
+	width:90%;
+	height:150px;
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:5%;
+}
+
+#searchbox {
+	background-image: url(../images/search.png);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	float:left;
+	width:80%;
+	height:75px;
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:3%;
+}
+
+#recipeselectcontainer {
+	background-color:yellow;
+	float:left;
+	width:90%;
+	height:800px;
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:3%;
+}
+
+.recipeselectbox {
+	background-image:url(../images/recipe_preview.png);
+	float:left;
+	width:100%;
+	height:300px;
+	margin-left:0%;
+	margin-top:0%;
+}
+
+.recipeselectbox:hover {
+	background-color:orange;
+}
+
+.recipeselectbox:active {
+	background-color:grey;
+}
+
+.recipeselectthumbnail {
+	float:left;
+	width:100%;
+	height:150px;
+	margin-left:0%;
+	margin-top:0%;
+}
+
+.recipeselectname {
+	border-bottom: 1px solid black;
+	float:left;
+	width:100%;
+	height:150px;
+	margin-left:0%;
+	margin-top:0%;
+}
+
+
+
+
+
+
+
+
+
+/**																				RECIPE DISPLAY PAGE													**/
+/**																				RECIPE DISPLAY PAGE													**/
+/**																				RECIPE DISPLAY PAGE													**/
+
+#recipedisplaybox {
+	background-color:rgba(255,255,255,0.9);
+	float:left;
+	width:90%;
+	height:950px;
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:10%;
+}
+
+#recipeimage {
+	background-image: url(../images/hamburger_love-normal.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	float:left;
+	width:100%;
+	height:300px;
+	margin-left:0%;
+	margin-top:0%;
+	
+}
+
+#recipenamebox {
+	background-image:url(../images/cheeseburger_header.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	float:left;
+	width:90%;
+	height:100px;
+	margin-left:5%;
+	margin-top:5%;
+	
+}
+
+#recipetextbox {
+	float:left;
+	width:100%;
+	height:377px;
+	margin-left:0%;
+	margin-top:0%;
+
+}
+
+#recipetextbox h1{
+	margin-left:5%;
+	font-family: 'Waiting for the Sunrise', cursive;
+	font-size:3em;
+	font-weight: bold;
+	font-variant: small-caps;
+
+}
+
+#recipetextbox h2{
+	margin-left:5%;
+	font-family: 'Waiting for the Sunrise', cursive;
+	font-size:2.5em;
+	font-weight: bold;
+
+}
+
+#recipetextbox p{
+	margin-left:10%;
+	margin-right:10%;
+	font-family: 'Waiting for the Sunrise', cursive;
+	font-size:2em;
+
+}
+
+#backbutton{
+	background-image:url(../images/backbtn.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	float:left;
+	width:40%;
+	height:125px;
+	margin-left:30%;
+	margin-right:30%;
+	margin-top:-5%;
+}
